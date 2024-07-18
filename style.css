@@ -1,0 +1,312 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 800px;
+  width: 100%;
+  background-image: url(background2.jpg);
+  background-repeat: no-repeat;
+  background-position: contain;
+  background-size: cover;
+}
+.btn button{
+  height: 35px;
+  width: 75px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin-top: 2px;
+}
+.btn :nth-child(2){
+  margin-left: 760px;
+  position:absolute;
+  color: white;
+  background-color: transparent;
+  width: 120px;
+  height: 35px;
+  margin-right: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.582);
+  margin-top: 30px;
+  padding-left: 10px;
+
+}
+.btn :nth-child(3){
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 900px;
+  position: absolute;
+}
+.btn :nth-child(1){
+  height: 100px;
+  width: 200px;
+  padding-left: 20px;
+  mix-blend-mode:screen;
+  color: red;
+
+}
+
+
+
+
+.h {
+  display: grid;
+  place-items: center;
+  padding-top: 180px;
+  color: white;
+  color: white;
+  
+  
+}
+.h :nth-child(1) {
+  font-size: 60px;
+  -webkit-text-stroke: 2px white;
+  font-weight: 900; 
+  
+}
+.h :nth-child(2) {
+  font-size: 30px;
+  padding-top: 15px;
+  
+  
+}
+.h :nth-child(3) {
+  font-size: 25px;
+  padding-top: 15px;
+  
+}
+.search{
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+  padding-left: 10px;
+  gap: 15px;
+  z-index: 1;
+  
+}
+.search input{
+  background-color: rgba(0, 0, 0, 0.526);
+  padding-bottom: 23px;
+  padding-left: 25px;
+  padding-top: 25px;
+  margin-top: 15px;
+  
+  
+}
+.search input::placeholder{
+  font-size: 20px;
+  color:rgba(255, 255, 255, 0.518);
+}
+.search :nth-child(1){
+  height: 55px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.487);  
+  margin-left: 300px;
+  
+}
+.search :nth-child(2){
+  height: 55px;
+  width: 200px;
+  margin-top: 15px;
+  background-color: red;
+  color: white;
+  color: white;
+  border: none;
+  font-size: 30px;
+  padding-top: 5px;
+  margin-right: 20px;
+  border-radius: 5px;
+  
+}
+.blur{
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(to top,
+  rgba(0,0,0,1.02)0%,
+  rgba(0,0,0,0.44)50%,
+  rgba(0,0,0,1.6)100%); 
+  /* opacity: 0.44;
+  background-color: black; */
+
+}
+
+
+.enjoy{
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  border-top: 5px solid rgba(255, 255, 255, 0.231);; 
+  border-bottom: 5px solid rgba(255, 255, 255, 0.231); 
+}
+ 
+/* second page start */
+  
+.textt :nth-child(1){
+color: white;
+margin-top: 200px;
+font-size: 60px;
+margin-left: 30px;
+font-weight: 900;
+}
+.textt :nth-child(2){
+color: white;
+font-size: 24px;
+margin-top: 10px;
+margin-left: 30px;
+}
+.imgg :nth-child(1){
+position:absolute;
+margin-left: 610px;
+margin-bottom: 100px;
+margin-top: 70px;
+height: 420px;
+width: 570px;
+
+}
+
+/* third page :start */
+
+.enjoyy{
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  border-top: 5px solid rgba(255, 255, 255, 0.24); 
+  border-bottom: 5px solid rgba(255, 255, 255, 0.237); 
+  position: relative;
+}
+.enjoy .vd :nth-child(1){
+   padding-left: 200px; 
+   margin-left: 375px;
+   margin-top: 100px;
+   padding-top: 50px;
+   height: 285px;
+   width: 830px;
+   position: absolute;
+
+}
+
+.imggg :nth-child(1){
+  height: 400px;
+  margin-top: 77px;
+  margin-left: 36px;
+  width: 570px;
+  position: absolute;
+}
+.enjoyy .texttt :nth-child(1){
+  color: white;
+  margin-left: 620px;
+  font-size: 62px;
+  margin-top: 150px;
+  width: 500px;
+  height: 210px;
+  
+  
+}
+.texttt :nth-child(2){
+  color: white;
+  position:relative;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-left: 620px;
+  font-weight: 200;
+  
+}
+#fourth{
+/* z-index: 10; */
+color: white;
+width: 100%;
+height: 600px;
+background-color: black;
+border: 2px solid white;
+border-top: 5px solid rgba(255, 255, 255, 0.24); 
+  border-bottom: 5px solid rgba(255, 255, 255, 0.237); 
+display: flex;
+}
+
+.textttt :nth-child(1){
+  color: white;
+  margin-left: 620px;
+  font-size: 60px;
+  margin-top: 150px;
+  width: 500px;
+  /* height: 2px; */
+}
+.textttt :nth-child(2){
+  color: white;
+  font-size: 26px;
+  margin-left: 620px;
+  font-weight: 200;
+}
+
+.enjoyyyyy{
+  width: 100%;
+  height: 950px;
+  background-color: black;
+  border-top: 5px solid rgba(255, 255, 255, 0.24); 
+  border-bottom: 5px solid rgba(255, 255, 255, 0.237); 
+}
+.enjoyyyyy h1{
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+  padding-top: 70px;
+  padding-left: 240px;
+}
+
+.boxxx .sixline{
+  height: 83px;
+  width: 95%;
+  color: white;
+  margin-top: 12px;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.167);
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  justify-content: space-between;
+  transition: 0.2s;
+}
+.boxxx .sixline:hover{
+  background-color: rgba(255, 255, 255, 0.215);
+  
+}
+.boxxx .sixline i{
+  font-size: 40px;
+  padding-top:20px ;
+  padding-right: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.boxxx .sixline h3{
+  padding-left: 30px;
+  padding-top: 25px;
+}
+.enjoyyyyy h3{
+  color: white;
+  padding-top: 50px;
+  padding-left: 287px;
+  font-size: 22px
+}
+
+.enjoy .vdd :nth-child(1){
+   padding-left: 200px; 
+   margin-left: 375px;
+   margin-top: 50px;
+   padding-top: 50px;
+   height: 250px;
+   width: 830px;
+   position: absolute;
+
+}
+
+@media(width:600px){
+  .h{
+    font-size: 10px;
+  }
+}
